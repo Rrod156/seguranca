@@ -1,46 +1,96 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html><html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Rodrigo Silva - Segurança Eletrônica IP</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
-        header { background: #0b132b; color: white; padding: 2rem; text-align: center; }
-        header h1 { margin: 0; font-size: 2rem; }
-        header p { margin-top: 0.5rem; font-size: 1.2rem; }
-        .badge { background: gold; color: #0b132b; display: inline-block; padding: 0.5rem 1rem; margin-top: 1rem; border-radius: 20px; font-weight: bold; }
-        main { padding: 2rem; max-width: 600px; margin: auto; }
-        .cta { display: block; background: #1c7ed6; color: white; text-decoration: none; padding: 1rem; text-align: center; border-radius: 8px; margin: 1.5rem 0; font-size: 1.1rem; }
-        form { display: flex; flex-direction: column; }
-        input, textarea { margin: 0.5rem 0; padding: 0.8rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 6px; }
-        button { background: #0b132b; color: white; padding: 1rem; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer; margin-top: 1rem; }
-        footer { background: #0b132b; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loja de Segurança Eletrônica</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #0a3d62;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    header .selo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: gold;
+      color: #0a3d62;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .whatsapp-button {
+      display: block;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .whatsapp-button a {
+      background-color: #25D366;
+      color: white;
+      padding: 15px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 8px;
+      display: inline-block;
+    }
+    form {
+      margin-top: 20px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #0a3d62;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Rodrigo Silva</h1>
-        <p>Especialista em Sistemas de Segurança Eletrônica IP</p>
-        <div class="badge">✔️ Técnico Certificado</div>
-    </header>
-    <main>
-        <p><strong>Proteja o que importa com tecnologia inteligente.</strong> Atendimento rápido, profissional e com selo de confiança.</p>
-        <a class="cta" href="https://wa.me/5593984049351?text=Olá Rodrigo, vi sua página e quero mais informações sobre segurança eletrônica!" target="_blank">
-            📲 Falar com Rodrigo no WhatsApp
-        </a>
+  <header>
+    <h1>Soluções Inteligentes em Segurança Eletrônica</h1>
+    <p>Protegendo o que você mais ama com tecnologia IP e monitoramento 24h</p>
+    <div class="selo">Especialista Verificado</div>
+  </header>  <main>
+    <h2>Solicite um Orçamento Rápido</h2>
+    <p>Preencha os dados abaixo e receba atendimento personalizado no WhatsApp:</p><form action="https://formsubmit.co/r06601032@gmail.com" method="POST">
+  <input type="text" name="nome" placeholder="Seu nome" required>
+  <input type="email" name="email" placeholder="Seu e-mail" required>
+  <input type="tel" name="telefone" placeholder="WhatsApp" required>
+  <textarea name="mensagem" rows="4" placeholder="Descreva sua necessidade"></textarea>
+  <button type="submit">Enviar</button>
+</form>
 
-        <h2>📩 Solicite um Orçamento</h2>
-        <form action="https://formsubmit.co/r06601032@gmail.com" method="POST">
-            <input type="text" name="name" placeholder="Seu nome" required />
-            <input type="email" name="email" placeholder="Seu e-mail" required />
-            <textarea name="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
-            <input type="hidden" name="_captcha" value="false" />
-            <button type="submit">Enviar Mensagem</button>
-        </form>
-    </main>
-    <footer>
-        © 2025 Rodrigo Silva - Segurança Eletrônica IP
-    </footer>
+<div class="whatsapp-button">
+  <a href="https://wa.me/5592984067765" target="_blank">
+    Falar direto no WhatsApp 📲
+  </a>
+</div>
+
+  </main>
 </body>
 </html>
