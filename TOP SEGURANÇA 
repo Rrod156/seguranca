@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOP Segurança Eletrônica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family: 'Montserrat', sans-serif; background:#0b0b0b; color:#fff; }
+    header { background:#000; padding:20px; display:flex; justify-content:space-between; align-items:center; }
+    header h1 { color:#f5b400; }
+    nav a { color:#fff; margin:0 15px; text-decoration:none; font-weight:500; }
+    .hero { height:90vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1581091215367-59ab6b47fbe9'); background-size:cover; }
+    .hero h2 { font-size:48px; color:#f5b400; }
+    .hero p { max-width:600px; }
+    .btn { background:#f5b400; color:#000; padding:15px 30px; margin-top:20px; border:none; border-radius:5px; font-weight:bold; cursor:pointer; }
+    .section { padding:60px 20px; text-align:center; }
+    .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .card { background:#1a1a1a; padding:20px; border-radius:10px; }
+    footer { background:#000; padding:30px; text-align:center; }
+  </style>
+</head>
+<body><header>
+  <h1>TOP Segurança</h1>
+  <nav>
+    <a href="#">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header><section class="hero">
+  <h2>Segurança Inteligente para Você</h2>
+  <p>Monitoramento 24h, CFTV, alarmes e controle de acesso com tecnologia de ponta.</p>
+  <button class="btn">Chamar no WhatsApp</button>
+</section><section class="section" id="servicos">
+  <h2>Serviços</h2>
+  <div class="services">
+    <div class="card">
+      <h3>CFTV</h3>
+      <p>Instalação de câmeras com acesso remoto.</p>
+    </div>
+    <div class="card">
+      <h3>Alarmes</h3>
+      <p>Sistemas inteligentes com resposta rápida.</p>
+    </div>
+    <div class="card">
+      <h3>Controle de Acesso</h3>
+      <p>Biometria, tags e reconhecimento facial.</p>
+    </div>
+    <div class="card">
+      <h3>Monitoramento 24h</h3>
+      <p>Proteção contínua com equipe especializada.</p>
+    </div>
+  </div>
+</section><section class="section" id="sobre">
+  <h2>Sobre a Empresa</h2>
+  <p>A TOP Segurança Eletrônica oferece soluções modernas para residências, empresas e condomínios, com foco em tecnologia, eficiência e segurança total.</p>
+</section><section class="section" id="contato">
+  <h2>Contato</h2>
+  <p>WhatsApp: (93) 98404-9351</p>
+  <p>Email: suporte.topseg@outlook.com</p>
+</section><footer>
+  <p>© 2026 TOP Segurança Eletrônica - Todos os direitos reservados</p>
+</footer></body>
+</html>
